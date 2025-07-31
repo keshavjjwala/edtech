@@ -8,12 +8,12 @@ import Other from "./components/Other";
 export default function Home() {
   console.log("Feedback import:", Feedback);
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col  ">
       <Navbar/>
       <Hero/>
       <Courses/>
       <Other/>
-      {/* //<Feedback/> */}
+      <Feedback/>
       
     </div>
   );

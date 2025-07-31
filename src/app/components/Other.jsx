@@ -12,7 +12,7 @@ const Other = () => {
                     <input
                         type="text"
                         placeholder="Search for over 50+ courses"
-                        className="px-6 py-3 w-72 rounded-l-full border-none focus:outline-none"
+                        className="px-6 py-3 w-72 rounded-l-full border-2 border-slate-300 focus:outline-none"
                     />
                     <button className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-r-full font-semibold">
                         Search
@@ -21,9 +21,9 @@ const Other = () => {
             </div>
 
             {/* Grid Section */}
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-6">
+            <div className="flex flex-col lg:flex-row mx-20 items-center justify-center gap-14">
                 {/* Students Grid */}
-                <div className="grid grid-cols-2 gap-4  rounded-3xl p-4">
+                <div className="gap-4  rounded-3xl p-4">
                     <img src="/grp.png" alt="Student 1" className="rounded-2xl" />
                     {/* <img src="/images/boy1.png" alt="Student 2" className="rounded-2xl" />
                     <img src="/images/girl2.png" alt="Student 3" className="rounded-2xl" />
