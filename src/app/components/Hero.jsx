@@ -20,10 +20,10 @@ const Hero = () => {
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-2 justify-center md:justify-start">
-            <button className="bg-[#d86eff] text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-[#c25eff] transition">
+            <button className="cursor-pointer bg-[#d86eff] text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:bg-[#c25eff] transition">
               Enroll Now
             </button>
-            <button className="flex items-center gap-2 text-[#d86eff] font-medium hover:underline">
+            <button className="cursor-pointer flex items-center gap-2 text-[#d86eff] font-medium hover:underline">
               What’s Etech?
             </button>
           </div>
@@ -43,7 +43,7 @@ const Hero = () => {
       {/* Partner Logos */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 px-4 py-8 items-center justify-center bg-gradient-to-r from-pink-500 to-purple-500 text-white">
         <div className="flex items-center gap-2 justify-center">
-          <img src="/dd.jpg" alt="Duolingo" className="w-6 sm:w-8 md:w-10" />
+          <img src="/duo.jpg" alt="Duolingo" className="w-6 sm:w-8 md:w-10" />
           <span className="text-sm sm:text-base md:text-lg font-semibold">Duolingo</span>
         </div>
         <div className="flex items-center gap-2 justify-center">

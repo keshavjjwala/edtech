@@ -11,7 +11,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold text-gray-800">
-          Vtech<span className="text-purple-600"></span>
+          ETECH<span className="text-purple-600"></span>
         </div>
 
         {/* Desktop Nav Links */}
@@ -24,10 +24,10 @@ const Navbar = () => {
 
         {/* Action Buttons */}
         <div className="hidden md:flex gap-3">
-          <button className="border border-pink-500 text-pink-500 px-4 py-1 rounded-md text-sm font-medium hover:bg-pink-50 transition">
+          <button className=" cursor-pointer border border-pink-500 text-pink-500 px-4 py-1 rounded-md text-sm font-medium hover:bg-pink-50 transition">
             Sign In
           </button>
-          <button className="bg-gradient-to-r from-pink-500 to-purple-500 text-white px-4 py-1 rounded-md text-sm font-medium hover:opacity-90 transition">
+          <button className="cursor-pointer bg-gradient-to-r from-pink-500 to-purple-500 text-white px-4 py-1 rounded-md text-sm font-medium hover:opacity-90 transition">
             Free Trial
           </button>
         </div>

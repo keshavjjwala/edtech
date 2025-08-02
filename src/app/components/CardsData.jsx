@@ -12,7 +12,7 @@ const cardsData = [
     rating: "4.9"
   },
   {
-    image: "/lap1.jpg",
+    image: "/ui.jpeg",
     category: "UI/UX Design",
     title: "Wireframing & prototyping",
     classes: "18",
