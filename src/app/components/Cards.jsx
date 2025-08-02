@@ -4,7 +4,7 @@ import React from 'react';
 
 const Cards = ({ image, category, title, classes, students, price, authorName, authorImage, rating }) => {
     return (
-        <div className="bg-white rounded-2xl shadow-md overflow-hidden max-w-sm">
+        <div className="bg-white rounded-2xl shadow-md overflow-hidden w-full sm:max-w-sm">
             <img src={image} alt={title} className="w-[95%] h-48 mx-auto mt-2 rounded-2xl object-cover" />
 
             <div className="p-4">

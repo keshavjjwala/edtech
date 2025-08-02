@@ -1,20 +1,19 @@
+"use client";
 import Courses from "./components/Courses";
-import Feedback from "./components/Feedback";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Other from "./components/Other";
-
-
+import TestimonialSlider from "./components/TestimonialSlider";
+import GetInTouch from "./components/GetInTouch";
 export default function Home() {
-  console.log("Feedback import:", Feedback);
   return (
     <div className="flex flex-col  ">
       <Navbar/>
       <Hero/>
       <Courses/>
       <Other/>
-      <Feedback/>
-      
+      <TestimonialSlider/>
+      <GetInTouch/>
     </div>
   );
 }

@@ -1,37 +1,34 @@
 "use client";
 
-import React from 'react'
+import React from 'react';
 
 const Other = () => {
     return (
-        <div className="bg-[#faf4fd] min-h-screen px-8 py-12 font-sans">
+        <div className="bg-[#faf4fd] min-h-screen px-4 md:px-8 py-12 font-sans">
             {/* Search Bar */}
             <div className="text-center mb-12">
                 <h2 className="text-3xl font-bold text-gray-800 mb-4">Search Courses</h2>
-                <div className="flex justify-center">
+                <div className="flex flex-col sm:flex-row justify-center items-center gap-3">
                     <input
                         type="text"
                         placeholder="Search for over 50+ courses"
-                        className="px-6 py-3 w-72 rounded-l-full border-2 border-slate-300 focus:outline-none"
+                        className="px-6 py-3 w-72 rounded-full border-2 border-slate-300 focus:outline-none"
                     />
-                    <button className="px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-r-full font-semibold">
+                    <button className="px-6 py-3 w-40 sm:w-auto bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-semibold hover:opacity-90 transition">
                         Search
                     </button>
                 </div>
             </div>
 
             {/* Grid Section */}
-            <div className="flex flex-col lg:flex-row mx-20 items-center justify-center gap-14">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-14 px-4 md:px-10">
                 {/* Students Grid */}
-                <div className="gap-4  rounded-3xl p-4">
-                    <img src="/grp.png" alt="Student 1" className="rounded-2xl" />
-                    {/* <img src="/images/boy1.png" alt="Student 2" className="rounded-2xl" />
-                    <img src="/images/girl2.png" alt="Student 3" className="rounded-2xl" />
-                    <img src="/images/boy2.png" alt="Student 4" className="rounded-2xl" /> */}
+                <div className="w-full max-w-md">
+                    <img src="/grp.png" alt="Student Group" className="rounded-2xl w-full h-auto object-cover" />
                 </div>
 
                 {/* Benefits Text */}
-                <div className="max-w-md">
+                <div className="max-w-xl w-full">
                     <h3 className="text-2xl font-semibold text-gray-800">
                         <span className="text-purple-500 font-bold">Benefits</span> From Our Online Learning
                     </h3>
@@ -71,5 +68,4 @@ const Other = () => {
     );
 };
 
-
-export default Other
+export default Other;
